@@ -1,5 +1,5 @@
 
-# Create the primary VPC for workloads
+/* # Create the primary VPC for workloads
 resource "aws_vpc" "main" {
   cidr_block           = "10.0.0.0/16"
   enable_dns_hostnames = true
@@ -10,4 +10,4 @@ resource "aws_vpc" "main" {
     Environment = "Lab"
     Managed_By  = "Terraform"
   }
-}
+} */
